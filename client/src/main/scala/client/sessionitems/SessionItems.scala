@@ -1,4 +1,4 @@
-package shared.sessionitems
+package client.sessionitems
 
 /**
  * Created by shubham.k on 11-05-2016.

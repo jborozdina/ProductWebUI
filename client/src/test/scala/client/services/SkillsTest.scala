@@ -1,6 +1,6 @@
 package client.services
 
-import shared.models.Skills
+import client.models.Skills
 
 /**
   * Created by bhagyashree.b on 2016-05-20.

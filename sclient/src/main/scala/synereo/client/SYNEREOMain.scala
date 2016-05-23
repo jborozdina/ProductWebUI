@@ -3,7 +3,7 @@ package synereo.client
 //import japgolly.scalajs.react.{Callback, ReactDOM}
 import synereo.client.components.{ GlobalStyles, Icon }
 import synereo.client.css.{ SynereoCommanStylesCSS, AppCSS }
-import shared.models.UserModel
+import client.models.UserModel
 import synereo.client.modules._
 import synereo.client.services.SYNEREOCircuit
 import synereo.client.logger._
@@ -22,8 +22,8 @@ import japgolly.scalajs.react._
 import japgolly.scalajs.react.vdom.prefix_<^._
 import scala.scalajs.js
 import js.{ Date, UndefOr }
-import shared.models.MessagesModel
-import shared.RootModels.MessagesRootModel
+import client.models.MessagesModel
+import client.RootModels.MessagesRootModel
 
 @JSExport("SYNEREOMain")
 object SYNEREOMain extends js.JSApp {

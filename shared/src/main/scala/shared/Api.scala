@@ -23,7 +23,7 @@ trait Api {
 
   def postMessage(requestContent: String): Future[String]*/
 
-  def queryApiBackend(requestContent: String): Future[String]
+  /*def queryApiBackend(requestContent: String): Future[String]
 
-  def getMock(requestContent: String, `type`: String): String
+  def getMock(requestContent: String, `type`: String): String*/
 }

@@ -2,9 +2,9 @@ package synereo.client.handlers
 
 import diode.data.{ Empty, Pot, PotAction }
 import diode.{ ActionHandler, ModelRW }
-import shared.RootModels.ProjectsRootModel
-import shared.dtos.{ ApiResponse, EvalSubscribeResponseContent }
-import shared.models.{ JobPost, ProjectsModel }
+import client.RootModels.ProjectsRootModel
+import client.dtos.{ ApiResponse, EvalSubscribeResponseContent }
+import client.models.{ JobPost, ProjectsModel }
 import synereo.client.services.CoreApi
 
 //import rx.ops.Timer

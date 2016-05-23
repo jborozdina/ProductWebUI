@@ -1,6 +1,6 @@
 package client.services
 
-import shared.models.SignUpModel
+import client.models.SignUpModel
 
 /**
   * Created by bhagyashree.b on 2016-05-20.

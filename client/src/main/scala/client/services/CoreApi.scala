@@ -2,8 +2,8 @@ package client.services
 
 import client.utils.Utils
 import shared.Api
-import shared.dtos._
-import shared.models._
+import client.dtos._
+import client.models._
 import org.scalajs.dom._
 import upickle.default._
 
@@ -12,7 +12,7 @@ import scala.scalajs.concurrent.JSExecutionContext.Implicits.queue
 import autowire._
 import boopickle.Default._
 import org.scalajs.dom.ext.Ajax
-import shared.sessionitems.SessionItems
+import client.sessionitems.SessionItems
 
 object CoreApi {
     var BASE_URL = "http://192.168.99.100:8888/api"
@@ -72,10 +72,6 @@ object CoreApi {
     }
   }
 
-  def getProjects(): Future[String] = {
-    val requestContent = upickle.default.write(ApiRequest(ApiTypes.PROJECT_REQUEST, SessionPing(window.sessionStorage.getItem("sessionURI"))))
-    AjaxClient[Api].getMock(requestContent, "jobPostsMock").call()
-  }
 
   def evalSubscribeRequest(subscribeRequest: SubscribeRequest): Future[String] = {
     val requestContent = upickle.default.write(ApiRequest(ApiTypes.EVAL_SUBS_REQUEST, subscribeRequest))

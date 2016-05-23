@@ -2,8 +2,8 @@ package synereo.client.services
 
 import synereo.client.utils.Utils
 import shared.Api
-import shared.dtos._
-import shared.models._
+import client.dtos._
+import client.models._
 import org.scalajs.dom._
 import org.scalajs.dom.ext.Ajax
 import upickle.default._

@@ -7,14 +7,14 @@ import client.components.ConnectionsSelectize
 import client.logger
 import client.logger._
 import diode.{ActionHandler, ActionResult, Effect, ModelRW}
-import shared.dtos.{Expression, ExpressionContent, Label, SubscribeRequest, _}
-import shared.models._
+import client.dtos.{Expression, ExpressionContent, Label, SubscribeRequest, _}
+import client.models._
 import client.services.{ApiTypes, CoreApi, LGCircuit}
 import client.utils.Utils
 import org.querki.jquery._
 import org.scalajs.dom.window
 import org.widok.moment.Moment
-import shared.sessionitems.SessionItems
+import client.sessionitems.SessionItems
 
 import concurrent._
 import ExecutionContext.Implicits._

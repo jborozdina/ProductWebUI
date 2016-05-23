@@ -6,12 +6,12 @@ import diode.data.Pot
 import japgolly.scalajs.react.vdom.prefix_<^._
 import japgolly.scalajs.react.{ BackendScope, Callback, ReactComponentB }
 import client.handlers.RefreshProjects
-import shared.RootModels.ProjectsRootModel
+import client.RootModels.ProjectsRootModel
 import client.components._
 import client.css.{ DashBoardCSS, HeaderCSS }
 import client.modals.{ NewMessage, RecommendationJobs, WorkContractModal }
-import shared.models.ProjectsPost
-import shared.dtos.EvalSubscribeResponseContent
+import client.models.ProjectsPost
+import client.dtos.EvalSubscribeResponseContent
 import scala.scalajs.js.Date
 import scalacss.ScalaCssReact._
 

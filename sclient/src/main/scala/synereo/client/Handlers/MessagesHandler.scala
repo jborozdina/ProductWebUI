@@ -6,10 +6,10 @@ import diode.data.{ Empty, Pot, PotAction, Ready }
 import diode._
 import diode.data._
 import org.scalajs.dom._
-import shared.RootModels.MessagesRootModel
-import shared.dtos.EvalSubscribeResponseContent
-import shared.models.MessagesModel
-import shared.dtos.{ ApiResponse, EvalSubscribeResponseContent }
+import client.RootModels.MessagesRootModel
+import client.dtos.EvalSubscribeResponseContent
+import client.models.MessagesModel
+import client.dtos.{ ApiResponse, EvalSubscribeResponseContent }
 import synereo.client.services.CoreApi
 import diode.util.{ Retry, RetryPolicy }
 import org.scalajs.dom._

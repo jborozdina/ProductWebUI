@@ -1,6 +1,6 @@
 package client.components
 
-import shared.RootModels.ConnectionsRootModel
+import client.RootModels.ConnectionsRootModel
 import diode.data.Pot
 import diode.react.ReactPot._
 import diode.react.ModelProxy
@@ -9,7 +9,7 @@ import japgolly.scalajs.react.vdom.prefix_<^._
 import org.denigma.selectize._
 import org.querki.jquery._
 import org.scalajs.dom._
-import shared.dtos.Connection
+import client.dtos.Connection
 
 import scala.language.existentials
 import scala.collection.mutable.ListBuffer

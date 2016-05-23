@@ -3,14 +3,14 @@ package client.modules
 import japgolly.scalajs.react.vdom.prefix_<^._
 import japgolly.scalajs.react.{ BackendScope, Callback, ReactComponentB }
 import client.handlers.RefreshConnections
-import shared.RootModels.ConnectionsRootModel
+import client.RootModels.ConnectionsRootModel
 import diode.react.ReactPot._
 import diode.react._
 import diode.data.Pot
 import client.components.Icon
 import client.css.{ HeaderCSS, DashBoardCSS }
 import client.modals.{ NewMessage, NewRecommendation }
-import shared.models.ConnectionsModel
+import client.models.ConnectionsModel
 import org.querki.jquery._
 import scala.scalajs.js
 import scalacss.ScalaCssReact._

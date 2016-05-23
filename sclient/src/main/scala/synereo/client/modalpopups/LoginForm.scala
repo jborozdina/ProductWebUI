@@ -1,10 +1,10 @@
 package synereo.client.modalpopups
 
-import shared.dtos.{ CreateUserResponse, ApiResponse }
+import client.dtos.{ CreateUserResponse, ApiResponse }
 import synereo.client.components.Bootstrap._
 import synereo.client.components._
 import synereo.client.css.{ SynereoCommanStylesCSS, SignupCSS, LoginCSS }
-import shared.models.UserModel
+import client.models.UserModel
 import synereo.client.services.{ ApiResponseMsg, CoreApi }
 import scala.util.{ Failure, Success }
 import scala.language.reflectiveCalls

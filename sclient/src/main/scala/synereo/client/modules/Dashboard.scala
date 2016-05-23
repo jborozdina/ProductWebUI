@@ -7,8 +7,8 @@ import japgolly.scalajs.react._
 import japgolly.scalajs.react.vdom.prefix_<^._
 import synereo.client.handlers.{ TestDispatch, PostMessages, RefreshConnections, RefreshMessages }
 import org.scalajs.dom
-import shared.models.{ MessagePost, MessagesModel }
-import shared.RootModels.MessagesRootModel
+import client.models.{ MessagePost, MessagesModel }
+import client.RootModels.MessagesRootModel
 import synereo.client.components._
 import synereo.client.css.{ SynereoCommanStylesCSS, DashboardCSS }
 import synereo.client.modalpopups.{ NewMessage, FullPostViewModal }

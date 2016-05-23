@@ -1,6 +1,6 @@
-package shared.RootModels
+package client.RootModels
 
-import shared.models.MessagePost
+import client.models.MessagePost
 
 case class MessagesRootModel(messagesModelList: Seq[MessagePost]) {
   def updated(newMessagesResponse: MessagePost): MessagesRootModel = {

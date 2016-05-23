@@ -2,9 +2,9 @@ package synereo.client.handlers
 
 import diode.data.{ Empty, Pot, PotAction }
 import diode.{ ActionHandler, ModelRW }
-import shared.RootModels.ConnectionsRootModel
-import shared.dtos.{ ApiResponse, ConnectionProfileResponse }
-import shared.models.ConnectionsModel
+import client.RootModels.ConnectionsRootModel
+import client.dtos.{ ApiResponse, ConnectionProfileResponse }
+import client.models.ConnectionsModel
 import synereo.client.services.CoreApi
 
 //import rx.ops.Timer

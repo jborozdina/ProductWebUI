@@ -18,7 +18,7 @@ import synereo.client.components.MIcon
 import synereo.client.components.MIcon.MIcon
 import synereo.client.components.{ MIcon, Bootstrap, GlobalStyles, Icon }
 import synereo.client.css.{ DashboardCSS, SynereoCommanStylesCSS, LoginCSS }
-import shared.models.UserModel
+import client.models.UserModel
 import synereo.client.services.SYNEREOCircuit
 
 import scalacss.ScalaCssReact._

@@ -2,8 +2,8 @@ package client.handlers
 
 import client.modules.AppModule
 import org.widok.moment.Moment
-import shared.dtos.{ ApiResponse, EvalSubscribeResponseContent }
-import shared.models.{ MessagePost, Post, ProjectsPost }
+import client.dtos.{ ApiResponse, EvalSubscribeResponseContent }
+import client.models.{ MessagePost, Post, ProjectsPost }
 
 /**
  * Created by shubham.k on 12-05-2016.

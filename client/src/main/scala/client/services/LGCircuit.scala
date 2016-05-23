@@ -2,14 +2,14 @@ package client.services
 
 import autowire._
 import client.handlers._
-import shared.RootModels._
+import client.RootModels._
 import upickle.default._
 import diode._
 import diode.data._
 import diode.util._
 import diode.react.ReactConnector
 import boopickle.Default._
-import shared.models.UserModel
+import client.models.UserModel
 import scala.scalajs.concurrent.JSExecutionContext.Implicits.runNow
 import scala.scalajs.js
 import scala.scalajs.js.JSON

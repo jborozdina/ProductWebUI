@@ -3,14 +3,14 @@ package synereo.client.modules
 import japgolly.scalajs.react._
 import org.scalajs.dom.window
 import japgolly.scalajs.react.vdom.prefix_<^._
-import shared.dtos._
-import shared.models.UserModel
+import client.dtos._
+import client.models.UserModel
 import synereo.client.handlers.{ CreateLabels, LoginUser, RefreshConnections }
 import synereo.client.components.Bootstrap.{ Button, CommonStyle }
 import synereo.client.components.{ Icon, MIcon }
 import synereo.client.css.LoginCSS
 import synereo.client.modalpopups._
-import shared.models.EmailValidationModel
+import client.models.EmailValidationModel
 import synereo.client.services.{ ApiResponseMsg, CoreApi, SYNEREOCircuit }
 import synereo.client.services.CoreApi._
 import scala.concurrent.Future

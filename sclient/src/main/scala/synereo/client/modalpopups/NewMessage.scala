@@ -2,7 +2,7 @@ package synereo.client.modalpopups
 
 import java.util.UUID
 
-import shared.models.MessagePost
+import client.models.MessagePost
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.extra.OnUnmount
 import japgolly.scalajs.react.vdom.prefix_<^._

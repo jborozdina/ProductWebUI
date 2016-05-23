@@ -3,10 +3,10 @@ package client.handlers
 import diode.data.PotState.PotPending
 import diode.{ Effect, ActionHandler, ModelRW }
 import diode.data.{ Empty, PotAction, Ready, Pot }
-import shared.models.ConnectionsModel
-import shared.RootModels.ConnectionsRootModel
+import client.models.ConnectionsModel
+import client.RootModels.ConnectionsRootModel
 import client.services.CoreApi
-import shared.dtos.{ ConnectionProfileResponse, ApiResponse }
+import client.dtos.{ ConnectionProfileResponse, ApiResponse }
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.scalajs.js.JSON
 

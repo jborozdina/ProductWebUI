@@ -1,16 +1,7 @@
 package services
 
-import java.io.PrintWriter
-
 import com.typesafe.config.ConfigFactory
 import shared._
-import mockdata.{ ConnectionsMock, JobPostsMock, MessagesMock }
-import play.api.Play.current
-import play.api.libs.ws._
-
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.Future
-import org.json4s.jackson.Serialization.write
 
 class ApiService extends Api {
   implicit val formats = org.json4s.DefaultFormats
@@ -90,7 +81,7 @@ class ApiService extends Api {
     }
   }*/
 
-  override def queryApiBackend(requestContent: String): Future[String] = {
+  /*override def queryApiBackend(requestContent: String): Future[String] = {
     println(s"request:${requestContent}")
     //    new PrintWriter("chacha.log") { write(requestContent); close }
     WS.url(BASE_URL).post(requestContent).map {
@@ -108,6 +99,6 @@ class ApiService extends Api {
       case _ => "not found"
     }
 
-  }
+  }*/
 
 }

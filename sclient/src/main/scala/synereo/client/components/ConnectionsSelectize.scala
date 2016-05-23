@@ -1,6 +1,6 @@
 package synereo.client.components
 
-import shared.RootModels.ConnectionsRootModel
+import client.RootModels.ConnectionsRootModel
 import diode.data.Pot
 import diode.react.ReactPot._
 import diode.react.ModelProxy

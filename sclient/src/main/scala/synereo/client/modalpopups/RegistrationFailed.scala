@@ -2,7 +2,7 @@ package synereo.client.modalpopups
 
 import synereo.client.components.{ Icon, GlobalStyles }
 import synereo.client.css.{ LoginCSS, SignupCSS, SynereoCommanStylesCSS }
-import shared.models.EmailValidationModel
+import client.models.EmailValidationModel
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.vdom.prefix_<^._
 import synereo.client.components.Bootstrap.Modal

@@ -6,7 +6,7 @@ import org.querki.jquery._
 import synereo.client.components.Bootstrap.Modal
 import synereo.client.components._
 import synereo.client.css.{ SignupCSS, SynereoCommanStylesCSS }
-import shared.models.UserModel
+import client.models.UserModel
 import scala.scalajs.js
 import scala.util
 import scalacss.ScalaCssReact._

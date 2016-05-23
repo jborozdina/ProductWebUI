@@ -5,9 +5,9 @@ import diode.react.ModelProxy
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.vdom.prefix_<^._
 import client.handlers._
-import shared.RootModels.SearchesRootModel
+import client.RootModels.SearchesRootModel
 import client.css._
-import shared.models.{ LabelModel, UserModel }
+import client.models.{ LabelModel, UserModel }
 import client.services.{ CoreApi, LGCircuit }
 import org.scalajs.dom._
 

@@ -22,9 +22,9 @@ import scalacss.ScalaCssReact._
 import scala.language.reflectiveCalls
 import org.querki.jquery._
 import org.scalajs.dom._
-import shared.dtos.Label
-import shared.models.{ProjectPostContent, ProjectsPost}
-import shared.sessionitems.SessionItems
+import client.dtos.Label
+import client.models.{ProjectPostContent, ProjectsPost}
+import client.sessionitems.SessionItems
 
 import scala.scalajs.js
 import scala.scalajs.js.Date

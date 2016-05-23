@@ -11,7 +11,7 @@ import client.components.Icon._
 import client.components._
 import client.css._
 import client.logger._
-import shared.models.UserModel
+import client.models.UserModel
 import client.services.CoreApi._
 import client.services._
 import scala.concurrent.ExecutionContext.Implicits.global

@@ -3,12 +3,12 @@ package client.handlers
 import client.modules.AppModule
 import diode._
 import diode.data._
-import shared.models.MessagePost
-import shared.RootModels.MessagesRootModel
+import client.models.MessagePost
+import client.RootModels.MessagesRootModel
 import client.services.CoreApi
 import diode.util.{Retry, RetryPolicy}
 import org.scalajs.dom.window
-import shared.sessionitems.SessionItems
+import client.sessionitems.SessionItems
 
 import scala.concurrent.ExecutionContext.Implicits.global
 

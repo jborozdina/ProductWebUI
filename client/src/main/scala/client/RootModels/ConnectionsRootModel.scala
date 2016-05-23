@@ -1,6 +1,6 @@
-package shared.RootModels
+package client.RootModels
 
-import shared.models.ConnectionsModel
+import client.models.ConnectionsModel
 
 case class ConnectionsRootModel(connectionsResponse: Seq[ConnectionsModel]) {
   def updated(newConnectionResponse: ConnectionsModel) = {

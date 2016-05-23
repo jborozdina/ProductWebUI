@@ -1,8 +1,8 @@
 package synereo.client.utils
 
 import org.scalajs.dom._
-import shared.dtos.Connection
-import shared.models.LabelModel
+import client.dtos.Connection
+import client.models.LabelModel
 
 /**
  * Created by shubham.k on 3/4/2016.

@@ -11,9 +11,9 @@ import client.components.Bootstrap.CommonStyle
 import client.modals.{ AgentLoginSignUp }
 import client.components._
 import client.css.{ DashBoardCSS, HeaderCSS }
-import shared.models.UserModel
+import client.models.UserModel
 import client.services.{ LGCircuit }
-import shared.dtos._
+import client.dtos._
 import scala.scalajs.js
 import scala.util._
 import scalacss.ScalaCssReact._

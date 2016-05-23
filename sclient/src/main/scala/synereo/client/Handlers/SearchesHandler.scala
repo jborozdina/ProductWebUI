@@ -2,9 +2,9 @@ package synereo.client.handlers
 
 import diode.{ Effect, ActionHandler, ModelRW }
 import diode.data.PotAction
-import shared.dtos._
-import shared.models.LabelModel
-import shared.RootModels.{ SearchesRootModel, MessagesRootModel }
+import client.dtos._
+import client.models.LabelModel
+import client.RootModels.{ SearchesRootModel, MessagesRootModel }
 import synereo.client.services.{ SYNEREOCircuit, CoreApi }
 import synereo.client.utils.{ Utils, PrologParser }
 import org.scalajs.dom._

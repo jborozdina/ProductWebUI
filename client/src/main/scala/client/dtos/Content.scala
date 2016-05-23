@@ -1,4 +1,4 @@
-package shared.dtos
+package client.dtos
 
 //import java.beans.Expression
 import java.util.Date

@@ -1,7 +1,7 @@
-package shared.RootModels
+package client.RootModels
 
-import shared.models.ProjectsPost
-import shared.dtos._
+import client.models.ProjectsPost
+import client.dtos._
 
 case class ProjectsRootModel(projectsModelList: Seq[ProjectsPost]) {
   def updated(newProject: ProjectsPost): ProjectsRootModel = {

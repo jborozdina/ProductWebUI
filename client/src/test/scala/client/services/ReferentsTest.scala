@@ -1,6 +1,6 @@
 package client.services
 
-import shared.models.Referents
+import client.models.Referents
 
 /**
   * Created by bhagyashree.b on 2016-05-20.

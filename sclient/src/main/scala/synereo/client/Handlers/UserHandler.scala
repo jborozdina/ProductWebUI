@@ -2,8 +2,8 @@ package synereo.client.handlers
 
 import java.util.UUID
 import diode.{ ActionHandler, Effect, ModelRW }
-import shared.dtos.{ Expression, ExpressionContent, Label, SubscribeRequest, _ }
-import shared.models.{ Post, UserModel }
+import client.dtos.{ Expression, ExpressionContent, Label, SubscribeRequest, _ }
+import client.models.{ Post, UserModel }
 import org.scalajs.dom.window
 import synereo.client.services.{ SYNEREOCircuit, CoreApi }
 import synereo.client.utils.Utils

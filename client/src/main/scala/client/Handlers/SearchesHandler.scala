@@ -2,13 +2,13 @@ package client.handlers
 
 import diode.{ ActionHandler, ActionResult, Effect, ModelRW }
 import diode.data.PotAction
-import shared.dtos._
-import shared.models.LabelModel
-import shared.RootModels.{ MessagesRootModel, SearchesRootModel }
+import client.dtos._
+import client.models.LabelModel
+import client.RootModels.{ MessagesRootModel, SearchesRootModel }
 import client.services.{ CoreApi, LGCircuit }
 import client.utils.{ PrologParser, Utils }
 import org.scalajs.dom._
-import shared.sessionitems.SessionItems
+import client.sessionitems.SessionItems
 
 import scala.collection.mutable.ListBuffer
 import scala.concurrent.ExecutionContext.Implicits.global

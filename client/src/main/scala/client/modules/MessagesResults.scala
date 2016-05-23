@@ -5,13 +5,13 @@ import diode.react._
 import diode.data.Pot
 import japgolly.scalajs.react.{BackendScope, Callback, ReactComponentB}
 import client.handlers.{RefreshConnections, RefreshMessages, RefreshProjects, StoreMessagesSearchLabel}
-import shared.RootModels.{ConnectionsRootModel, MessagesRootModel, ProjectsRootModel}
+import client.RootModels.{ConnectionsRootModel, MessagesRootModel, ProjectsRootModel}
 import client.css.{DashBoardCSS, HeaderCSS, LftcontainerCSS}
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.vdom.prefix_<^._
 import client.components._
 import client.css.{DashBoardCSS, HeaderCSS}
-import shared.models.MessagePost
+import client.models.MessagePost
 import client.services.LGCircuit
 
 import scala.scalajs.js

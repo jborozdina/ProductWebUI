@@ -1,4 +1,4 @@
-package shared.dtos
+package client.dtos
 
 /**
  * Wraps all API requests in a standard format.

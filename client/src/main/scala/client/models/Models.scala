@@ -1,6 +1,6 @@
-package shared.models
+package client.models
 
-import shared.dtos._
+import client.dtos._
 
 sealed trait Post {
   def uid: String

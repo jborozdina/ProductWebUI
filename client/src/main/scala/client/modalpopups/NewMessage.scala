@@ -1,6 +1,6 @@
 package client.modals
 
-import shared.models.MessagePostContent
+import client.models.MessagePostContent
 import client.services.LGCircuit
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.extra.OnUnmount
@@ -15,7 +15,7 @@ import scalacss.Defaults._
 import scalacss.ScalaCssReact._
 import scala.language.reflectiveCalls
 import org.querki.jquery._
-import shared.sessionitems.SessionItems
+import client.sessionitems.SessionItems
 
 object NewMessage {
   @inline private def bss = GlobalStyles.bootstrapStyles

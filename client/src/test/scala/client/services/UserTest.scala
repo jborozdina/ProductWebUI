@@ -1,6 +1,6 @@
 package client.services
 
-import shared.models.UserModel
+import client.models.UserModel
 
 /**
   * Created by bhagyashree.b on 2016-05-18.

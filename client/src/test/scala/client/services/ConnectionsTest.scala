@@ -1,7 +1,7 @@
 package client.services
 
-import shared.dtos.Connection
-import shared.models.ConnectionsModel
+import client.dtos.Connection
+import client.models.ConnectionsModel
 
 /**
   * Created by bhagyashree.b on 2016-05-20.
