@@ -15,8 +15,6 @@ trait ScalaJSVersions {
   val datePickerFacade = "0.5"
   val selectizeFacade = "0.12.1-0.2.1"
   val momentJSFacade = "0.1.4"
-  val jQuery = "1.11.1"
-
 }
 
 //versions for libs that are shared between client and server
@@ -38,6 +36,7 @@ trait WebJarsVersions{
   val playScripts = "0.4.0"
   val playWS = "2.4.3"
   val fontAwesome = "4.5.0"
+  val jQuery = "1.11.1"
 
 }
 
