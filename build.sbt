@@ -1,3 +1,4 @@
+/*
 import sbt.Keys._
 import sbt.Project.projectToRef
 
@@ -90,3 +91,39 @@ lazy val ReleaseCmd = Command.command("release") {
 
 // loads the Play server project at sbt startup
 onLoad in Global := (Command.process("project server", _: State)) compose (onLoad in Global).value
+*/
+
+
+import com.lihaoyi.workbench.Plugin._
+
+name := "client"
+
+version := Versions.appVersion
+
+scalaVersion := Versions.scalaVersion
+
+enablePlugins(ScalaJSPlugin)
+
+//persistLauncher := true
+
+//persistLauncher in Test := false
+
+jsDependencies ++= Settings.jsDependencies.value
+
+jsDependencies += RuntimeDOM
+
+skip in packageJSDependencies := false
+
+libraryDependencies ++= Settings.scalajsDependencies.value
+
+//persistLauncher in Compile := true
+//
+//persistLauncher in Test := false
+
+workbenchSettings
+
+bootSnippet := "sample.ScalaJSThree().main();"
+
+localUrl := ("0.0.0.0", 8080)
+
+updateBrowsers <<= updateBrowsers.triggeredBy(fastOptJS in Compile)

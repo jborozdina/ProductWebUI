@@ -22,26 +22,6 @@ object Settings {
     "-Xmx1G"
   )
 
-  /**
-    * These dependencies are shared between JS and JVM projects
-    * the special %%% function selects the correct version for each project
-    */
-  val sharedDependencies = Def.setting(Seq(
-    "com.lihaoyi" %%% "autowire" % Versions.autowire,
-    "me.chrons" %%% "boopickle" % Versions.booPickle,
-	  "com.lihaoyi" %%% "upickle" % "0.3.8"
-  ))
-
-  /** Dependencies only used by the JVM project */
-  val jvmDependencies = Def.setting(Seq(
-    "com.vmunier" %% "play-scalajs-scripts" % Versions.playScripts,
-    "com.typesafe.play" %% "play-ws" %  "2.5.3",
-    "org.webjars" % "font-awesome" %"4.6.2"  % Provided,
-    "org.webjars" % "bootstrap" % Versions.bootstrap % Provided,
-    "org.json4s" %% "json4s-jackson" % 	"3.3.0" ,
-    "org.scalaj" %% "scalaj-http" %  "2.3.0"
-  ))
-
   /** Dependencies only used by the JS project (note the use of %%% instead of %%) */
   val scalajsDependencies = Def.setting(Seq(
     "com.github.japgolly.scalajs-react" %%% "core" % Versions.scalajsReact,
@@ -50,13 +30,14 @@ object Settings {
     "org.scala-js" %%% "scalajs-dom" % Versions.scalaDom,
     "me.chrons" %%% "diode" % Versions.diode,
     "me.chrons" %%% "diode-react" % Versions.diode,
-    "org.querki" %%% "jquery-facade" % "1.0-RC3",
+    "org.querki" %%% "jquery-facade" % Versions.jqueryFacade,
     "org.querki" %%% "querki-jsext" % "0.6",
     "org.querki" %%% "bootstrap-datepicker-facade" % "0.5",
     "org.denigma" %%% "selectize-facade" % "0.12.1-0.2.1",
     "com.github.nscala-time" %% "nscala-time" % "2.12.0",
     "io.github.widok" %%% "scala-js-momentjs" % "0.1.4",
-    "org.scalatest" %%% "scalatest" % Versions.scalaTest % "test"
+    "org.scalatest" %%% "scalatest" % Versions.scalaTest % "test",
+    "com.lihaoyi" %%% "upickle" % "0.3.8"
   ))
 
   /** Dependencies for external JS libs that are bundled into a single .js file according to dependency order */
